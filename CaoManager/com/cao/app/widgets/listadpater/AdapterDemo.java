@@ -52,12 +52,11 @@ public class AdapterDemo {
 		shell.setLayout(new FillLayout(SWT.HORIZONTAL));
 
 		ArrayList<Contact> names = new ArrayList<Contact>();
-		names.add(new Contact("Shareboard User", "32323232", "21 MB"));
-		names.add(new Contact("Ranjeet", "9493556600", "323 KB"));
-		names.add(new Contact("Pawan", "7676669915", "32 MB"));
-		names.add(new Contact("Gagan", "1234567890", "1 GB"));
-		names.add(new Contact("Solo", "63045215", ""));
-		names.add(new Contact("Aru", "32323232", "21 MB"));
+		names.add(new Contact("Mr A", "32323232", "21 MB"));
+		names.add(new Contact("Mr B", "SDSDF32", "323 KB"));
+		names.add(new Contact("Mr C", "2332DFS", "32 MB"));
+		names.add(new Contact("Mr D", "1234567890", "1 GB"));
+		names.add(new Contact("Mr E", "63045215", ""));
 		
 		ArrayListAdapter adapter = new ArrayListAdapter<Contact>(shell, SWT.BORDER, 50, names) {
 
