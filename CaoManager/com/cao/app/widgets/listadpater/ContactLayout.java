@@ -29,7 +29,8 @@ public class ContactLayout extends Composite {
 	 */
 	public ContactLayout(Composite parent, int style, Contact contact) {
 		super(parent, style);
-//		contact = new Contact("Ranjeet", "9493556600", "323 KB");
+//		SBContact contact = PlatformDelegator.getContact(peerid);
+		
 		setBackground(SWTResourceManager.getColor(SWT.COLOR_WHITE));
 		GridLayout gridLayout = new GridLayout(4, false);
 		gridLayout.verticalSpacing = 0;

@@ -7,7 +7,7 @@ import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.wb.swt.SWTResourceManager;
 
-import com.shareboard.desktop.custom.ui.UIFactory;
+import com.shareboard.desktop.utils.UIFactory;
 
 public class VMenuBar extends Composite {
 	ArrayList<VCustomMenuItem> items;

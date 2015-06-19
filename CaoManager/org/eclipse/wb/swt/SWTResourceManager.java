@@ -16,8 +16,6 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-import main.CaoManager;
-
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.graphics.Cursor;
@@ -145,7 +143,7 @@ public class SWTResourceManager {
 				m_imageMap.put(path, image);
 			}
 		}
-		return getImage(CaoManager.class, "/resources/" + path.toLowerCase());
+		return image;
 	}
 	/**
 	 * Returns an {@link Image} stored in the file at the specified path relative to the specified class.

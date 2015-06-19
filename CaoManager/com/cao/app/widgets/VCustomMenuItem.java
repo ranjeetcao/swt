@@ -17,7 +17,7 @@ import org.eclipse.swt.widgets.Listener;
 import org.eclipse.wb.swt.SWTResourceManager;
 
 import com.shareboard.desktop.app.LandingPage;
-import com.shareboard.desktop.custom.ui.UIFactory;
+import com.shareboard.desktop.utils.UIFactory;
 
 public class VCustomMenuItem extends Composite {
 	Label arrowLabel;

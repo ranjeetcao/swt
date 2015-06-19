@@ -23,7 +23,7 @@ public class CaoManager {
 	public void open() {
 		Display display = Display.getDefault();
 		createContents();
-		this.shell.open();
+		this.shell.launch();
 		this.shell.layout();
 		while (!this.shell.isDisposed()) {
 			if (!display.readAndDispatch()) {
