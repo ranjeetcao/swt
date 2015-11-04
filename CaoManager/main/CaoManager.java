@@ -9,8 +9,8 @@ import com.cao.app.ui.CaoMenuBar;
 import com.cao.app.ui.UIFactory;
 
 public class CaoManager {
-	//test
 	//dev test
+	//test feature publish
 	protected Shell shell;
 
 	public static void main(String[] args) {
