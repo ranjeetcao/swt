@@ -21,7 +21,7 @@ public class CaoManager {
 	}
 
 	public void open() {
-		/*Display display = Display.getDefault();
+		Display display = Display.getDefault();
 		createContents();
 		this.shell.launch();
 		this.shell.layout();
@@ -29,7 +29,7 @@ public class CaoManager {
 			if (!display.readAndDispatch()) {
 				display.sleep();
 			}
-		}*/
+		}
 	}
 
 	protected void createContents() {
