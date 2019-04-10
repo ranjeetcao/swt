@@ -13,8 +13,8 @@ public class CaoManager {
 
 	public static void main(String[] args) {
 		try {
-			CaoManager window = new CaoManager();
-			window.open();
+			//CaoManager window = new CaoManager();
+			//window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
