@@ -39,7 +39,7 @@ public class CaoManager {
 
 		this.shell.setSize(3 * rec.width / 4, 3 * rec.height / 4);
 		this.shell.setLocation(rec.width / 8, rec.height / 8);
-		this.shell.setText("RCao Application");
+		this.shell.setText("SWT Demo Application");
 		this.shell.setLayoutData(UIFactory.getGridLayoutData());
 		this.shell.setLayout(UIFactory.getGridLayout(1));
 
