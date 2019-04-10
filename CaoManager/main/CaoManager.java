@@ -9,7 +9,6 @@ import com.cao.app.ui.CaoMenuBar;
 import com.cao.app.ui.UIFactory;
 
 public class CaoManager {
-	//git branching test
 	protected Shell shell;
 
 	public static void main(String[] args) {
@@ -40,7 +39,7 @@ public class CaoManager {
 
 		this.shell.setSize(3 * rec.width / 4, 3 * rec.height / 4);
 		this.shell.setLocation(rec.width / 8, rec.height / 8);
-		this.shell.setText("SWT Application");
+		this.shell.setText("RCao Application");
 		this.shell.setLayoutData(UIFactory.getGridLayoutData());
 		this.shell.setLayout(UIFactory.getGridLayout(1));
 
